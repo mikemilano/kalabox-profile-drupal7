@@ -7,19 +7,19 @@ is a separate npm project defined as a dependency in `package.json`.
 
 ## Usage
 
-1. Create a project directory, and a `public` directory inside of it
+Step 1. Create a project directory, and a `public` directory inside of it
 where the Drupal codebase will be run from.
 ```
 mkdir -p myproject/public
 cd myproject
 ```
 
-2. Clone the drupal7 profile into a `.kalabox` directory.
+Step 2. Clone the drupal7 profile into a `.kalabox` directory.
 ```
 git clone git@github.com:mikemilano/kalabox-profile-drupal7.git .kalabox
 ```
 
-3. Update `title` and `name` in the `.kalabox/profile.json` file.
+Step 3. Update `title` and `name` in the `.kalabox/profile.json` file.
 ```
 {
   "title": "My Site Title",
@@ -30,7 +30,7 @@ git clone git@github.com:mikemilano/kalabox-profile-drupal7.git .kalabox
 
 *Note: This name must be unique to any other kalabox apps on your system.*
 
-4. Initialize your app
+Step 4. Initialize your app
 ```
 kbox init
 kbox start
