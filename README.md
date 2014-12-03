@@ -1,6 +1,6 @@
 # Kalabox Drupal 7 Profile
 
-*Kalabox dev team notes*
+### Kalabox dev team notes
 This profile is a prototype for testing the use of an independent profile project that includes
 local and external plugins. `kalabox-plugin-drush` is local and `kalabox-plugin-drupal7`
 is a separate npm project defined as a dependency in `package.json`.
@@ -27,6 +27,7 @@ git clone git@github.com:mikemilano/kalabox-profile-drupal7.git .kalabox
   ...
 ```
 *Note: `name` must include lowercase alphanumeric characters and hyphens only.*
+
 *Note: This name must be unique to any other kalabox apps on your system.*
 
 4. Initialize your app
