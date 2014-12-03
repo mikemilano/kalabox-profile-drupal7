@@ -1,0 +1,10 @@
+{
+    "cid": "7.0.0-alpha5-alias-path--dbb0639bec218e8e19f042d8c7e83eff",
+    "data": {
+        "#name": "dev",
+        "#file": "\/root\/.drush\/aliases.drushrc.php"
+    },
+    "created": 1417406479,
+    "headers": null,
+    "expire": 0
+}

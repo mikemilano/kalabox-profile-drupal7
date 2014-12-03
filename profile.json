@@ -1,0 +1,43 @@
+{
+  "title": "My Drupal7 Site",
+  "name": "d7-site",
+  "profile": "kalabox-profile-drupal7",
+  "plugins": {
+    "kalabox-plugin-drupal7": {
+      "profile": "standard",
+      "theme": "garland",
+      "username": "admin",
+      "password": "kalabox"
+    },
+    "kalabox-plugin-drush": {}
+  },
+  "components": {
+    "db": {
+      "image": {
+        "name": "kalabox/mariadb",
+        "build": true,
+        "src": "dockerfiles/kalabox/mariadb"
+      }
+    },
+    "php": {
+      "image": {
+        "name": "kalabox/php-fpm",
+        "build": true,
+        "src": "dockerfiles/kalabox/php-fpm"
+      }
+    },
+    "web": {
+      "image": {
+        "name": "kalabox/nginx",
+        "build": true,
+        "src": "dockerfiles/kalabox/nginx"
+      },
+      "proxy": [
+        {
+          "port": "80/tcp",
+          "default": true
+        }
+      ]
+    }
+  }
+}

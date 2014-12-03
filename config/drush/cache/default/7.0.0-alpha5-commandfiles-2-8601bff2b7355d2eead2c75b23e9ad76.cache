@@ -1,0 +1,10 @@
+{
+    "cid": "7.0.0-alpha5-commandfiles-2-8601bff2b7355d2eead2c75b23e9ad76",
+    "data": {
+        "views.d8": "\/usr\/local\/src\/drush\/commands\/core\/views.d8.drush.inc",
+        "migrate.d8": "\/usr\/local\/src\/drush\/commands\/core\/migrate.d8.drush.inc"
+    },
+    "created": 1415919086,
+    "headers": null,
+    "expire": 0
+}

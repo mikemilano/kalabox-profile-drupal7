@@ -1,0 +1,10 @@
+{
+  "name": "kalabox-profile-drupal7",
+  "version": "0.0.0",
+  "description": "Drupal 7 profile",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "kalabox-plugin-drupal7": "0.0.0"
+  }
+}
